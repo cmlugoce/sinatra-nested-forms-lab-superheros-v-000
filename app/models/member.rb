@@ -4,7 +4,7 @@ class Member
   
   @@members = []
   
-  def initialize(name, bio, power)
+  def initialize(name, power, bio)
     @name = name 
     @bio = bio 
     @power = power 
