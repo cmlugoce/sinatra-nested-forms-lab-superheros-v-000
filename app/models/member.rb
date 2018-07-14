@@ -1,6 +1,6 @@
 class Member 
   
-  attr_accessor :name, :bio, :power 
+  attr_accessor :name, :power, :bio 
   
   @@members = []
   
