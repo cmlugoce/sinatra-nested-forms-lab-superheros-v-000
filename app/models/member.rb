@@ -2,7 +2,7 @@ class Member
   
   attr_accessor :name, :bio, :power 
   
-  @@members
+  @@members = []
   
   def initialize(name, bio, power)
     @name = name 
