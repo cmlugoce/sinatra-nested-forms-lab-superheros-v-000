@@ -6,8 +6,8 @@ class Member
   
   def initialize(name, power, bio)
     @name = name 
-    @bio = bio 
     @power = power 
+    @bio = bio
     @@members << self 
   end 
   
